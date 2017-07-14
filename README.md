@@ -3,20 +3,23 @@
 ## To install:
 (Optional) Create and activate a virtual environment
 
-```python3 -m venv autoencoder_venv
+```
+python3 -m venv autoencoder_venv
 source autoencoder_venv/bin/activate
 ```
 
 Fetch repository and install requirements
 
-```git clone https://www.github.com/deronnek/pp_autoencoder
+```
+git clone https://www.github.com/deronnek/pp_autoencoder
 cd pp_autoencoder  
 pip install -r requirements.txt
 ```
 
 Download data [file](https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2) and unpack
 
-```wget https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2
+```
+wget https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2
 tar jxf aa_data.tar.bz2`
 ```
 
