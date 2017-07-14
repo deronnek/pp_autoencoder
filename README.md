@@ -8,8 +8,11 @@
 `source autoencoder_venv/bin/activate`
 
 Fetch repository and install requirements
+
 `git clone https://www.github.com/deronnek/pp_autoencoder`
+
 `cd pp_autoencoder`
+
 `pip install -r requirements.txt`
 
 ## To run demo:
