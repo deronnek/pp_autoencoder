@@ -30,7 +30,7 @@ python convolutionNeuralNet.py gen --seq_len 104
 python convolutionNeuralNet.py test --seq_len 696
 ```
 
-## For help:
+## For command-line argument help:
 `python convolutionNeuralNet.py -h`
 
 ## Troubleshooting:
