@@ -30,4 +30,4 @@ If you get this message:
 
 `ValueError: Error when checking model target: expected convolution2d_7 to have shape (None, 8, 104, 1) but got array with shape (5022, 1, 104, 24)`
 
-Set `image_dim_ordering` in ~/.keras/keras.json to "th" (NOT "tf")
+Set `image_dim_ordering` in ~/.keras/keras.json to `"th"` (NOT `"tf"`)
