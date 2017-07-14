@@ -15,6 +15,12 @@ Fetch repository and install requirements
 
 `pip install -r requirements.txt`
 
+Download data [file](https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2) and unpack
+
+`wget https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2` 
+
+`tar jxf aa_data.tar.bz2`
+
 ## To run demo:
 `python convolutionNeuralNet.py train --seq_len 104 --n_epoch 1`
 
