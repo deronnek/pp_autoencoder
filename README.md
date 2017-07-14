@@ -3,24 +3,24 @@
 ## To install:
 (Optional) Create and activate a virtual environment
 
-`python3 -m venv autoencoder_venv
+`python3 -m venv autoencoder_venv`
 
-source autoencoder_venv/bin/activate`
+`source autoencoder_venv/bin/activate`
 
 Fetch repository and install requirements
-`git clone https://www.github.com/deronnek/pp_autoencoder
-cd pp_autoencoder
-pip install -r requirements.txt`
+`git clone https://www.github.com/deronnek/pp_autoencoder`
+`cd pp_autoencoder`
+`pip install -r requirements.txt`
 
 ## To run demo:
-`python convolutionNeuralNet.py train --seq_len 104 --n_epoch 1
+`python convolutionNeuralNet.py train --seq_len 104 --n_epoch 1`
 
-python convolutionNeuralNet.py gen --seq_len 104
+`python convolutionNeuralNet.py gen --seq_len 104`
 
-python convolutionNeuralNet.py test --seq_len 696`
+`python convolutionNeuralNet.py test --seq_len 696`
 
 ## For help:
-python convolutionNeuralNet.py -h
+`python convolutionNeuralNet.py -h`
 
 ## Troubleshooting:
 If you get this message: 
