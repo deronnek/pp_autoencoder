@@ -23,12 +23,18 @@ wget https://www.dropbox.com/s/3m96r1hlb6yzgil/aa_data.tar.bz2
 tar jxf aa_data.tar.bz2`
 ```
 
-## To run demo (these can be run independently of one another):
-```
-python convolutionNeuralNet.py train --seq_len 104 --n_epoch 1
-python convolutionNeuralNet.py gen --seq_len 104
-python convolutionNeuralNet.py test --seq_len 696
-```
+## To run demo:
+
+`python convolutionNeuralNet.py train --seq_len 104 --n_epoch 1`
+
+or
+
+`python convolutionNeuralNet.py gen --seq_len 104`
+
+or
+
+`python convolutionNeuralNet.py test --seq_len 696`
+
 
 ## For command-line argument help:
 `python convolutionNeuralNet.py -h`
