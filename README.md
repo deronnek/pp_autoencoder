@@ -3,8 +3,8 @@
 ## To install:
 (Optional) Create and activate a virtual environment
 
-`python3 -m venv autoencoder_venv  
-source autoencoder_venv/bin/activate`
+`python3 -m venv autoencoder_venv  `
+`source autoencoder_venv/bin/activate`
 
 Fetch repository and install requirements
 
