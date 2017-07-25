@@ -1,7 +1,7 @@
 # This is pp\_autoencode, the protein profile autoencoder.
 
 ## Prerequisite:
-[git lfs](https://git-lfs.github.com/)
+[git large file storage](https://git-lfs.github.com/)
 
 ## To install:
 (Optional) Create and activate a virtual environment
@@ -19,7 +19,7 @@ cd pp_autoencoder
 pip install -r requirements.txt
 ```
 
-Unpack data files:
+Unpack data files (please be patient; the compression ratio is quite high):
 
 ```
 tar jxf aa_data.tar.bz2
